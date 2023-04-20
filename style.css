@@ -37,7 +37,7 @@ body{
 } 
 .imageBack{
     height:100%;
-    width: 30rem;
+    width: 100vw;
     /* background-image: url(/images/Darafoto.jpg); */
     background-position: center;
     background-repeat: no-repeat;
@@ -65,10 +65,10 @@ body{
     padding: 2rem;
 }
 
-.firstSection img{
+.imageBack img{
     height: 100%;
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
 }
 .project{
     margin-top: 2rem;
