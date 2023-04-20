@@ -85,6 +85,7 @@ body{
     width:auto;
     /* height: 15vh; */
     position: absolute;
+    font-size: 1.5rem;
     top: 12%;
     right: 1%;
     background-color: bue;
