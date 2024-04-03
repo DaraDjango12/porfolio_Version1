@@ -1,360 +1,339 @@
-body{
-    color: blueviolet;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body {
+  color: blueviolet;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgb(142, 145, 145);
-    padding: 0 1rem;
-    color: black;
-    
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(142, 145, 145);
+  padding: 0 1rem;
+  color: black;
 }
 
-.nav p{
-    font-size: 2rem;
+.nav p {
+  font-size: 2rem;
 }
-.firstSection{
-    background-color: rgb(154, 154, 162);
-    /* background-color: #E63946; */
-    height: 30rem;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    flex-direction: column-reverse;
-    
+.firstSection {
+  background-color: rgb(154, 154, 162);
+  /* background-color: #E63946; */
+  height: 30rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column-reverse;
 }
-.software{
-    font-size: 2rem;
-    margin: auto;
-    /* text-align: right;
+.software {
+  font-size: 2rem;
+  margin: auto;
+  /* text-align: right;
     display: flex;
     justify-content: end; */
-} 
-.imageBack{
-    height:100%;
-    width: 100vw;
-    /* background-image: url(/images/Darafoto.jpg); */
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: auto; 
-    /* background-color: brown; */
-    /* border-radius: 50%; */
-    overflow: hidden;
-    
 }
-
+.imageBack {
+  height: 100%;
+  width: 100vw;
+  /* background-image: url(/images/Darafoto.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  /* background-color: brown; */
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
 
 .technology {
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    /* justify-content: center; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* justify-content: center; */
 
-    /* align-items: center; */
-}
-
-.tech,.projectHead{
-    text-align: center;
-}
-.skillSet{
-    padding: 2rem;
+  /* align-items: center; */
 }
 
-.imageBack img{
-    height: 100%;
-    width: 100%;
-    /* margin: auto; */
+.tech,
+.projectHead {
+  text-align: center;
 }
-.project{
-    margin-top: 2rem;
-    background-color: rgb(142, 145, 145);
-    padding:2rem;
-    text-align: center;
-    color: black;
+.skillSet {
+  padding: 2rem;
 }
-.lotif{
-    width: 100%;
-    
-}
-.mobileNav{
-    width:auto;
-    /* height: 15vh; */
-    position: absolute;
-    font-size: 1.5rem;
-    top: 12%;
-    right: 1%;
-    background-color: bue;
-    /* text-align:center; */
-    background-color:rgb(142, 145, 145);
-    border-radius: 0.5rem;
 
+.imageBack img {
+  height: 100%;
+  width: 100%;
+  /* margin: auto; */
 }
-.show{
-    display: block;
+.project {
+  margin-top: 2rem;
+  background-color: rgb(142, 145, 145);
+  padding: 2rem;
+  text-align: center;
+  color: black;
 }
-.hide{
-    display:none;
+.lotif {
+  width: 100%;
 }
-.mobileNav ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* gap: 0.5rem; */
-    /* justify-content: left;
+.mobileNav {
+  width: auto;
+  /* height: 15vh; */
+  position: absolute;
+  font-size: 1.5rem;
+  top: 12%;
+  right: 1%;
+  background-color: bue;
+  /* text-align:center; */
+  background-color: rgb(142, 145, 145);
+  border-radius: 0.5rem;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.mobileNav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 0.5rem; */
+  /* justify-content: left;
     align-items: center; */
-    list-style: none;
+  list-style: none;
 }
-.mobileNav ul a{
-    text-decoration: none;
-    color: black;
-    /* text-align:center; */
-    
-    border-radius: 0.5rem;
-    padding: 0.2rem 0.2rem;
+.mobileNav ul a {
+  text-decoration: none;
+  color: black;
+  /* text-align:center; */
+
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.2rem;
 }
-.mobileNav ul a:hover{
-    background-color:rgb(126, 126, 125)
+.mobileNav ul a:hover {
+  background-color: rgb(126, 126, 125);
 }
 
-.htmlDiv{
-    height: 0.5rem;
-    width: 100%;
-    border-radius: 2rem;
-    background-color: rgb(239, 237, 237);
+.htmlDiv {
+  height: 0.5rem;
+  width: 100%;
+  border-radius: 2rem;
+  background-color: rgb(239, 237, 237);
 }
 
-.projectLink{
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-    
-
+.projectLink {
+  /* height: 4rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 1rem; */
 }
-.projectLink a{
-    text-decoration: none;
-    color: black;
-
+.projectLink a {
+  text-decoration: none;
+  color: black;
 }
 
+.projectLink :hover {
+  text-transform: uppercase;
+}
+.htmlInner {
+  height: 100%;
 
-.projectLink :hover{
-    
-    text-transform: uppercase;
+  border-radius: 2rem;
+  background-color: rgb(199, 136, 199);
 }
-.htmlInner{
-    height: 100%;
-    
-    border-radius: 2rem;
-    background-color:rgb(199, 136, 199);
+.html {
+  width: 80%;
 }
-.html{
-    width:80% ;
-}
-.css{
-    width:60% ;
+.css {
+  width: 60%;
 }
 
-.javascript{
-    width:60% ;
+.javascript {
+  width: 60%;
 }
 
-.react{
-    width:70% ;
+.react {
+  width: 70%;
 }
-.node{
-    width:50% ;
+.node {
+  width: 50%;
 }
 
-.eachProject{
-    box-shadow: rgba(24, 0, 20, 0.55) 0px 5px 15px;
+.older {
+  font-size: 1.5rem;
+  margin-top: 8rem;
+}
+
+.eachProject {
+  box-shadow: rgba(24, 0, 20, 0.55) 0px 5px 15px;
+  text-align: center;
+  font-size: 1.2rem;
+
+  border-radius: 1rem;
+}
+
+.eachProject .small {
+  margin: 1rem;
+}
+.gitButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.gitButton button:hover {
+  background-color: rgb(195, 193, 195);
+  text-transform: uppercase;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.eachProject {
+  background-color: white;
+}
+.eachProject img {
+  width: 100%;
+  /* margin-bottom: 1rem; */
+}
+
+.github {
+  background-color: white;
+  border-radius: 5rem;
+  padding: 0.5rem 2rem;
+  border-color: white;
+}
+.skills h4 {
+  text-align: center;
+}
+.contactSect {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.contactMe {
+  font-size: 2rem;
+}
+.icons {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.icon a {
+  color: rgb(142, 145, 145);
+}
+.icon :hover {
+  color: blueviolet;
+}
+.nav2 {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(142, 145, 145);
+  color: black;
+}
+
+@media (min-width: 600px) {
+  .projects {
+    flex-direction: row;
+    flex: 1;
+  }
+  .lotif {
+    display: none;
+  }
+  .technology {
+    flex-direction: row;
+    gap: 2rem;
+    /* flex: 1; */
+  }
+  .nav {
+    display: none;
+  }
+  .Quotes {
+    width: 50%;
+  }
+  .skills {
+    width: 50%;
+  }
+  .mobileNav {
+    display: none;
+  }
+  .Quotes h4 {
     text-align: center;
-    font-size: 1.2rem;
-    
-    border-radius: 1rem;
-    
+  }
+  .firstSection {
+    flex-direction: column-reverse;
+  }
 
-
-}
-.gitButton{
-    display:flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-.gitButton button:hover{
-    background-color:rgb(195, 193, 195);
-    text-transform: uppercase;
-}
-
-.projects{
-    display:flex;
+  .eachProject {
+    width: 40%;
+  }
+  .quotes {
+    height: 15rem;
+    display: flex;
     flex-direction: column;
-    gap:4rem;
-}
-.eachProject{
-    background-color: white;
-}
-.eachProject img{
-    width: 100%;
-    /* margin-bottom: 1rem; */
-    
-}
-
-.github{
-    background-color: white;
-    border-radius: 5rem;
-    padding:0.5rem 2rem;
-    border-color: white;
-
-}
-.skills h4{
-    text-align: center;
-}
-.contactSect{
-    text-align:center;
-    margin-bottom: 2rem;
-}
-.contactMe{
-    font-size: 2rem;
-}
-.icons{
-    display:flex;
-    gap:2rem;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 2rem;
-
-}
-.icon a{
-    
-    color:rgb(142, 145, 145);
-}
-.icon :hover{
-    color: blueviolet;
-}
-.nav2{
-    display:none;
-}
-
-footer{
-    text-align: center;
-    height: 4rem;
+    background-color: ed;
+  }
+  .imageBack {
+    width: 25rem;
+    height: 25rem;
+  }
+  .firstSection,
+  .software {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+  }
+  .nav2 {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(142, 145, 145);
+    padding: 0 1.5rem;
     color: black;
+  }
 
+  .nav2 p {
+    font-size: 2rem;
+  }
 
+  .nav2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-decoration: none;
+    list-style: none;
+  }
 
+  .nav2 a {
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 1em;
+    background-color: rgb(154, 154, 162);
+  }
+  .nav2 a:hover {
+    background-color: rgb(140, 139, 141);
+  }
 }
 
-@media(min-width:600px){
-    .projects{
-        flex-direction: row;
-        flex: 1;
-    }
-    .lotif{
-        display: none;
-    }
-    .technology{
-        flex-direction: row;
-        gap: 2rem;
-        /* flex: 1; */
-    }
-    .nav{
-        display: none;
-    }
-    .Quotes{
-        width: 50%;
-    }
-    .skills{
-        width: 50%;
-    }
-    .mobileNav{
-        display: none;
-    }
-    .Quotes h4{
-        text-align: center;
-    }
-    .firstSection{flex-direction: column-reverse;}
-
-    .eachProject{
-        width: 40%;
-    }
-    .quotes{
-        height: 15rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        background-color: ed;
-    }
-    .imageBack{
-        width:25rem;
-        height: 25rem;
-    }
-    .firstSection,.software{
-        display: flex;
-        flex-direction: row;
-    }
-    .nav2{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color:rgb(142, 145, 145);
-        padding: 0 1.5rem;
-        color: black;
-        
-    }
-
-    .nav2 p{
-        font-size: 2rem;
-    }
-
-    .nav2 ul{
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-        text-decoration: none;
-        list-style: none;
-    }
-
-    .nav2 a{
-        text-decoration: none;
-        color: black;
-        padding:0.5rem 1rem;
-        border-radius: 1em;
-        background-color:rgb(154, 154, 162)
-        
-
-        
-    }
-    .nav2 a:hover{
-        background-color:rgb(140, 139, 141)
-    }
-    
-
-    
-}
-    
-
-@media(min-width:900px){
-    .technology{
-        flex-direction: row;
-        /* flex: 1; */
-        justify-content:center;
-        
-    }
-
-    
-    
-    
+@media (min-width: 900px) {
+  .technology {
+    flex-direction: row;
+    /* flex: 1; */
+    justify-content: center;
+  }
 }
